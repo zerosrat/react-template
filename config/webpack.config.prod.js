@@ -185,6 +185,8 @@ module.exports = webpackMerge(baseWebpackConfig, {
                         importLoaders: 1,
                         minimize: true,
                         sourceMap: shouldUseSourceMap,
+                        modules: true,
+                        // localIdentName: '[name]__[local]-[hash:base64:5]'
                       },
                     },
                     {

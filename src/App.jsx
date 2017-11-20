@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
-import './App.css'
-import { Home } from 'src/containers/Home/Home'
+import Header from 'src/containers/header/Header'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Home />
+      <div>
+        <Header />
       </div>
     )
   }
